@@ -208,16 +208,16 @@ header {
 }
 
 .separator {
-    /*opacity: 0;*/
-    display: flex;
-    margin-left: 2rem;
+    opacity: 0%;
+    /*display: flex;*/
+    /*margin-left: 2rem;*/
     /*align-items: ;*/
     /*justify-content: center;*/
 
 }
 
 .line {
-
+    margin: auto;
     opacity: 0;
     height: .15rem;
     background-color: var(--secondary-font-color);
@@ -277,6 +277,7 @@ header {
 }
 
 .btn {
+    opacity: 0%;
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -320,13 +321,16 @@ header {
 
 .headline-dark {
     color: var(--main-font-color-dark);
-    letter-spacing: .7rem;
-    margin-right: -.7rem;
+    letter-spacing: .5rem;
+    margin:auto;
+
+    /*margin-right: -.7rem;*/
 }
 
 .global-headline .sub-headline {
     letter-spacing: -.1rem;
     line-height: .42;
+
 }
 
 .about {
@@ -528,7 +532,19 @@ footer {
 
 /*Media queries*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 899px) {
+   .separator{
+       opacity: 0%;
+   }
+
+    .hero {
+
+        background: url("herop.jpg") center no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+
     .image-group {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -536,9 +552,10 @@ footer {
         margin-bottom: 10rem;
     }
 
-    .container {
-        width: auto;
+    .asterisk {
+        opacity: 0;
     }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -595,6 +612,7 @@ footer {
 
     .sub-headline {
         font-size: 12.2rem;
+
     }
 
     .headline {
