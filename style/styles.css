@@ -299,6 +299,19 @@ header {
 }
 
 /*Discover my portfolio*/
+
+.my-info-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 100%;
+}
+.img-box {
+    margin: 0 auto;
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+}
 .global-headline {
     text-align: center;
     margin-top: 3.9rem;
@@ -319,7 +332,7 @@ header {
 .headline-dark {
     color: var(--main-font-color-dark);
     letter-spacing: .5rem;
-    margin:auto;
+    margin: auto;
 
     /*margin-right: -.7rem;*/
 }
@@ -408,6 +421,15 @@ header {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
     margin-bottom: 10rem;
+    margin-right: 40px;
+
+}
+
+.image-group2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5rem;
+    margin-bottom: 100px;
 
 }
 
@@ -527,12 +549,13 @@ footer {
 }
 
 
+
 /*Media queries*/
 
 @media screen and (max-width: 899px) {
-   .separator{
-       opacity: 0%;
-   }
+    .separator {
+        opacity: 0%;
+    }
 
     .hero {
 
