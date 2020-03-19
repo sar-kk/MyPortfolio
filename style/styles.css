@@ -30,11 +30,12 @@ html {
 body {
     overflow-x: hidden;
 
+
 }
 
 section {
     overflow: hidden;
-    padding: 3.9rem 0;
+    padding: 3.9rem 3.9rem;
 
 }
 
@@ -184,7 +185,7 @@ header {
 
     margin-bottom: 10px;
     opacity: 0;
-    margin-right: 20rem;
+    margin-right: 1rem;
     animation: fadeUp .5s forwards;
     animation-delay: .5s;
 }
@@ -202,7 +203,7 @@ header {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: .4rem;
-    margin-left: -6rem;
+    margin-left: -5rem;
     animation: scale .5s forwards;
 
 }
