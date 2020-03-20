@@ -71,6 +71,7 @@ header {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), transparent);
 }
 
+
 .nav {
     height: 7.2rem;
     display: flex;
@@ -198,14 +199,13 @@ header {
 
 .headline {
     color: #fff;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: var(--main-font);
     text-transform: uppercase;
     font-weight: 900;
-    letter-spacing: .4rem;
+    letter-spacing: .3rem;
     margin-left: -5rem;
     animation: scale .5s forwards;
-
 }
 
 .separator {
@@ -282,37 +282,39 @@ header {
     margin-left: 10rem;
 }
 
-.cta-btn {
+/*.cta-btn {*/
 
-    font-size: 1.2rem;
+/*    font-size: 1.2rem;*/
 
-    background-color: #fff;
-    padding: .9rem 1.8rem;
-    color: black;
-    border-radius: .4rem;
-    transition: background-color .5s;
-}
+/*    background-color: #fff;*/
+/*    padding: .9rem 1.8rem;*/
+/*    color: black;*/
+/*    border-radius: .4rem;*/
+/*    transition: background-color .5s;*/
+/*}*/
 
-.cta-btn:hover,
-.cta-btn:focus {
-    color: #fff;;
-    background-color: var(--secondary-font-color);
-}
+/*.cta-btn:hover,*/
+/*.cta-btn:focus {*/
+/*    color: #fff;;*/
+/*    background-color: var(--secondary-font-color);*/
+/*}*/
 
 /*Discover my portfolio*/
 
-.my-info-img img{
+.my-info-img img {
     width: 100%;
     height: 100%;
     display: block;
     border-radius: 100%;
 }
+
 .img-box {
     margin: 0 auto;
     padding: 8px;
     border: 2px solid #000000;
     border-radius: 100%;
 }
+
 .global-headline {
     text-align: center;
     margin-top: 3.9rem;
@@ -360,36 +362,36 @@ header {
     margin-left: 20px;
 }
 
-.body-btn {
-    margin-right: 12rem;
-    padding-bottom: 2px;
-    font-size: 1.6rem;
-    color: var(--main-font-color-dark);
-    position: relative;
-    transition: color .5s;
-}
+/*.body-btn {*/
+/*    margin-right: 12rem;*/
+/*    padding-bottom: 2px;*/
+/*    font-size: 1.6rem;*/
+/*    color: var(--main-font-color-dark);*/
+/*    position: relative;*/
+/*    transition: color .5s;*/
+/*}*/
 
-.body-btn::before {
-    content: ' ';
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 100%;
-    height: 2px;
-    background-color: var(--secondary-font-color);
-    transition: background-color .5s;
-}
+/*.body-btn::before {*/
+/*    content: ' ';*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: -3px;*/
+/*    width: 100%;*/
+/*    height: 2px;*/
+/*    background-color: var(--secondary-font-color);*/
+/*    transition: background-color .5s;*/
+/*}*/
 
-.body-btn:hover,
-.body-btn:focus {
-    color: var(--main-font-color-dark);
+/*.body-btn:hover,*/
+/*.body-btn:focus {*/
+/*    color: var(--main-font-color-dark);*/
 
-}
+/*}*/
 
-.body-btn:hover::before
-.body-btn:focus::before {
-    color: var(--main-font-color-dark);
-}
+/*.body-btn:hover::before*/
+/*.body-btn:focus::before {*/
+/*    color: var(--main-font-color-dark);*/
+/*}*/
 
 /*My interests*/
 .interesting-hobbies {
@@ -548,7 +550,6 @@ footer {
     transform: translateY(-50%);
     margin-left: 10.5rem;
 }
-
 
 
 /*Media queries*/
